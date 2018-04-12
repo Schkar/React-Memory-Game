@@ -1,0 +1,16 @@
+.buttons{
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+    .startButton{
+        width: 100px;
+        margin: 0 30px;
+        padding: 5px 15px;
+        background-color: lightblue;
+        border: 2px solid darkblue;
+        &:active{
+            background-color: darken(lightblue,20%);
+            border: 2px solid lighten(darkblue, 20%);
+        }
+    }
+}
